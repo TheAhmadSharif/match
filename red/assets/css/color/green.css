@@ -1,0 +1,35 @@
+ /* Green 2FB135 */
+
+ a {
+  color: #2FB135;
+}
+
+.btn-color {
+	background: #2FB135;
+}
+
+
+.bg-color {
+	background-color: #2FB135;
+}
+.standard-button {
+  background-color: #2FB135;
+  color: #FFF;
+}
+.standard-button:hover {
+  color: #ffffff;
+  background-color: #2FB135;
+}
+
+
+.form-control:focus {
+    border-color: #2FB135;
+}
+
+
+ /* Search */
+
+.search-result .pagination .current {
+  border-color: #2FB135;
+  background-color: #2FB135;
+}

@@ -1,0 +1,28 @@
+/* Red Color FF3334 */
+
+
+a {
+  color: #000;
+}
+
+.standard-button {
+  background-color: #FF3334;
+  color: #FFF;
+}
+.standard-button:hover {
+  color: #FFF;
+  background-color: #e64646;
+}
+
+
+
+.form-control:focus {
+    border-color: #FF3334;
+}
+
+
+ /* Search */
+.search-result .pagination .current {
+	border-color: #FF3334;
+	background-color: #FF3334;
+}

@@ -1,0 +1,71 @@
+ /* Yellow FFBE3C */
+
+ a {
+  color: #FFBE3C;
+}
+
+.btn-color {
+  background-color: #FFBE3C;
+  color: #000;
+}
+
+.btn-color:hover, .btn-color:focus, .btn-color:active {
+    background: #333;
+    color: #FFF;
+}
+a.scrollToTop {
+  color: #000;
+}
+
+/* Navigation */
+
+.mt.navbar-default .navbar-nav > li > a:hover, .mt.navbar-default .navbar-nav > li > a:focus {
+    color: #FFBE3C;
+}
+
+
+.mt .dropdown-menu > li > a:hover, .mt .dropdown-menu > li > a:active .mt .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #FFBE3C;
+
+}
+
+.mt .dropdown-menu > li > a:hover, .mt .dropdown-menu > li > a:active .mt .dropdown-menu > li > a:focus {
+  color: #000;
+}
+
+
+/* Blog Pagination */
+
+.mt.pagination .current {
+    border-color: #FFBE3C;
+    background-color: #FFBE3C;
+    color: #000;
+}
+
+
+
+.bg-color {
+  background-color: #FFBE3C;
+}
+.standard-button {
+  background-color: #FFBE3C;
+  color: #FFF;
+}
+.standard-button:hover {
+  color: #ffffff;
+  background-color: #FFBE3C;
+}
+
+
+
+.form-control:focus {
+    border-color: #FFBE3C;
+}
+
+
+ /* Search */
+.search-result .pagination .current {
+  border-color: #FFBE3C;
+  background-color: #FFBE3C;
+}

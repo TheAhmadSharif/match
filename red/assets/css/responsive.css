@@ -1,0 +1,121 @@
+
+@media(max-width:767px) {
+
+    #what-we-do-section {
+            background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+    }
+
+
+
+    .landing-page-section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+    }
+
+
+    .page-intro-section.about-us {
+         background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+    }
+
+    .page-intro-section {
+        background-size: cover !important;
+            -moz-background-size: cover !important;
+            -webkit-background-size: cover !important;
+    }
+
+    .default-page-bg {
+           background: #EEE url("../images/default-bg.jpg") no-repeat fixed 100% 0%;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+    }
+
+
+    .mt.navbar-default {
+        background-color: #FFF;
+    }
+
+
+
+    .mt.navbar-default .navbar-nav > li > a {
+      color: #333;
+          }
+
+
+        .mt.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+            color: #666;
+            padding: 10px 20px;
+          }
+            .mt.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #666;
+          }
+
+    
+
+    .search-block {
+            margin-top: 0;
+            position: relative;
+            width: 100%;
+        }
+
+    #members-info-section {
+        background-size: cover;
+    }
+    
+
+      #video {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+	
+    .milestone-unit {
+        margin-bottom: 60px;
+    }
+
+    p.copyright-text {
+        float: left;
+      }
+
+  header#user-profile {
+    background-size: cover;
+    height: auto;
+}
+
+
+}
+ 
+ 
+@media(max-width:480px) {
+
+    .mt.navbar-default {
+        background-color: #FFF;
+    }
+
+     #video {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+  
+header#user-profile {
+    background-size: cover;
+    height: auto;
+}
+.profile-btn-list {
+  float: left;
+}
+
+.bcr_ins_gallery img {
+    width: 110px;
+}
+}

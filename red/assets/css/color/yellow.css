@@ -1,0 +1,35 @@
+ /* Yellow FFBE3C */
+
+ a {
+  color: #FFBE3C;
+}
+
+.btn-color {
+  background-color: #FFBE3C;
+}
+
+
+.bg-color {
+  background-color: #FFBE3C;
+}
+.standard-button {
+  background-color: #FFBE3C;
+  color: #FFF;
+}
+.standard-button:hover {
+  color: #ffffff;
+  background-color: #FFBE3C;
+}
+
+
+
+.form-control:focus {
+    border-color: #FFBE3C;
+}
+
+
+ /* Search */
+.search-result .pagination .current {
+  border-color: #FFBE3C;
+  background-color: #FFBE3C;
+}

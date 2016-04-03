@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="author" content="Skylarksoft">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>  Search Result :: MatchBot  </title>
+
+      <!-- Favicon Icon -->
+      <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon-icons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon-icons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon-icons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon-icons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon-icons/apple-icon-144x144.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-icons/favicon-16x16.png">
+      <link rel="shortcut icon" href="assets/favicon-icons/favicon.ico" type="image/x-icon">
+
+      <!-- Plugins CSS -->
+      <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/plugins/bootstrap/bootstrap.css">
+      <link rel="stylesheet" href="assets/plugins/bootstrap-select/css/bootstrap-select.css">
+      <link rel="stylesheet" href="assets/plugins/icheck/skins/square/grey.css">
+
+      <link rel="stylesheet" href="assets/plugins/wow/animate.css">
+      <link rel="stylesheet" href="assets/plugins/et-line-font/style.css">
+      <link rel="stylesheet" href="assets/plugins/pretty-photo/css/prettyPhoto.css">
+
+      <!-- Template CSS -->
+      <link rel="stylesheet" href="assets/css/mainstylesheet.css">
+      <link rel="stylesheet" href="assets/css/typography.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" href="assets/css/color/yellow.css">
+                             
+      <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+   </head>
+
+
+
+<body class="search-page-body">
+
+
+ <nav id="fixedNav" class="mt navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                     <div class="logo-block">
+                        <a href="index.html"></a>
+                     </div>
+                     <!-- End Logo Block -->
+                  </div>
+                  <!-- End Nav Bar Header -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"> HOME</a>
+                        </li>
+                        <li><a href="about.html">ABOUT</a>
+                        </li>
+                        <li><a href="faq.html">FAQ</a>
+                        </li>
+                        <li class="dropdown">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> MORE PAGES <span class="fa fa-caret-down margin-left-10"></span> </a>
+                           <ul class="dropdown-menu">
+                             <li><a href="index2.html"> Home 2</a>
+                              </li>
+                               <li><a href="about2.html"> About 2</a>
+                              </li>
+                              
+                              <li><a href="contact.html">Contact</a>
+                              </li>
+                             
+                              <li><a href="search.html">Search</a>
+                              </li>
+
+                              <li><a href="profile.html">Profile</a>
+                              </li>
+                              <li><a href="signup.html">Signup</a>
+                              </li>
+                              </li>
+                               <li><a href="terms.html">Terms</a>
+                              </li>
+                              <li><a href="blog.html">Blog</a>
+                              </li>
+                              <li class="last-child"><a href="404.html">404</a>
+                              </li>
+                              
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+               </div>
+            </div>
+         </div>
+         <!-- /.container -->
+      </nav>
+
+    
+ 
+
+
+
+
+
+    <section id="searc-form-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="search-block border-radius-3">
+                            <form class="search-form" action="search.html">
+
+                                
+
+                                <div class="row">
+                                    <div class="col-md-2">
+                                             <p class="color-white">
+                                                    I am
+                                                </p>
+                                                <select name="gender" class="">
+                                                    <option value="male"> Male </option>
+                                                    <option value="female"> Female </option>
+                                                </select>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                         <p class="color-white">
+                                            Looking
+                                            </p>
+                                            <select name="seeking_gender" class="">
+                                                <option value="female"> Female </option>
+                                                <option value="male"> Male </option>
+                                            </select>
+                                            
+                                        </div>
+
+                                        <div class="col-md-3">
+                                             <p class="color-white">
+                                                Location
+                                            </p>
+                                            <input type="text" class="location-input" name="location" placeholder="Does not matter" /> 
+                                            <span class="icon-location-pin location-icon"></span>
+                                        </div>
+
+                                        <div class="col-md-3">
+                                                <p class="color-white">
+                                                    Age Between
+                                                </p>
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                                <input type="text" name="age_start" placeholder="20" class="col-md-6 margin-bottom-20" /> 
+                                                        
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <input type="text" name="age_end" placeholder="26" class="col-md-6" />
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            
+                                        </div>
+
+                                      
+
+
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <button class="btn btn-color margin-top-35"> <span class="icon-heart margin-right-10"></span> Search </button>
+                                            </div>
+                                        </div>
+
+
+                                </div>
+                                
+                            </form>
+                        </div>
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="search-result wow fadeInDown margin-bottom-20" data-wow-duration="0.2s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="sidebar-title bg-color padding-10 wow fadeInDown">
+                        <h4> <span class="font-20 color-black"> Search &amp; Filter </span> </h4>
+                    </div>
+
+                    <div class="sidebar search-filter">
+                        <div class="search-filter-container padding-20">
+                            <ul class="block search-filter-list-ul">
+                                <li>
+                                    <input type="checkbox" value="1" name="male">
+                                    <span class="search-result-filter-name">
+													Male
+												</span>
+                                    <span class="search-result-number-span"> (1036) </span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="1" name="female">
+                                    <span class="search-result-filter-name">
+													Female
+												</span>
+                                    <span class="search-result-number-span"> (1036) </span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="1" name="smoker">
+                                    <span class="search-result-filter-name">
+													Smoker
+												</span>
+                                    <span class="search-result-number-span"> (1036) </span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="1" name="non_smoker">
+                                    <span class="search-result-filter-name">
+													Non-Smoker
+												</span>
+                                    <span class="search-result-number-span"> (1036) </span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="1" name="per_lover">
+                                    <span class="search-result-filter-name">
+													Pet-lover
+												</span>
+                                    <span class="search-result-number-span"> (1036) </span>
+                                </li>
+                            </ul>
+                            <div class="filter-result">
+                                <p>
+                                    Age
+                                </p>
+                                <ul class="age-limit-ul inline-block">
+                                    <li>
+                                        <input type="text" name="age_start" placeholder="20" />
+                                    </li>
+                                    <li> To </li>
+                                    <li>
+                                        <input type="text" name="age_end" placeholder="24" />
+                                    </li>
+                                    <li class="margin-top-20">
+                                        <button class="btn btn-color"> Apply Filters</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Filter Result -->
+                        </div>
+                        <!-- End Search Filter -->
+                    </div>
+                    <!-- End Sidebar -->
+                </div>
+                <!-- End Column 12 -->
+
+
+                <div class="col-md-9">
+                    <div class="searh-section wow fadeInRight">
+                        <h4 class="search-result-text"> Search Result (1024 people) </h4>
+                        <div class="profile-block">
+
+                        <div class="row">
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                 <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/2.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Carla Houston </a>
+                                        <p class="font-12 no-margin user-basic-info"> 34 Moscow</p>
+                                    </div>
+                            </div>
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/3.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Abigail Akon Obro </a>
+                                        <p class="font-12 no-margin user-basic-info"> 42 Melbourne</p>
+                                    </div>
+                            </div>
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/4.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Alexey Marchenco </a>
+                                        <p class="font-12 no-margin user-basic-info"> 27 Silicon velley</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/5.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Claire Divas </a>
+                                        <p class="font-12 no-margin user-basic-info"> 24 Newyork</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/6.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Alexey Marchenco </a>
+                                        <p class="font-12 no-margin user-basic-info"> 28 Vienna</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/7.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Penny Albritton </a>
+                                        <p class="font-12 no-margin user-basic-info"> 20 Dusseldorf</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/8.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Lisa Resnick </a>
+                                        <p class="font-12 no-margin user-basic-info"> 42 Madrid</p>
+                                    </div>
+                            </div>
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/9.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Audie Dewey </a>
+                                        <p class="font-12 no-margin user-basic-info"> 36 Alamy</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/10.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Shanika Rathnayake </a>
+                                        <p class="font-12 no-margin user-basic-info"> 24 Mexico</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/11.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Dilara Büyük Lewis </a>
+                                        <p class="font-12 no-margin user-basic-info"> 48 Brazil</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/12.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Alycia Gordan </a>
+                                        <p class="font-12 no-margin user-basic-info"> 34 Perth</p>
+                                    </div>
+                            </div>
+
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/13.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Justin Allison </a>
+                                        <p class="font-12 no-margin user-basic-info"> 22 Toronto</p>
+                                    </div>
+                            </div>
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/14.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Laytoya Thomas </a>
+                                        <p class="font-12 no-margin user-basic-info"> 44 Paris</p>
+                                    </div>
+                            </div>
+
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/15.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Virginia Adams </a>
+                                        <p class="font-12 no-margin user-basic-info"> 34 Brussels</p>
+                                    </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/16.jpg" alt=""></a>
+                                        <a href="profile.html" class="search-result-user-name"> Mira Edorra </a>
+                                        <p class="user-basic-info"> 32 Berlin</p>
+                                    </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-2 col-xs-6">
+                                <div class="profile-unit">
+                                        <a href="profile.html"><img src="assets/images/pic/17.jpg" alt=""></a>
+                                        <a href="profile.html" class="bold font-13 search-result-user-name"> Alexey Marchenco </a>
+                                        <p class="font-12 no-margin user-basic-info"> 38 Melbourne</p>
+                                    </div>
+                            </div>
+
+
+                        </div>  <!-- End row -->
+
+
+                            <div class="right">
+                                <nav>
+                                    <ul class="pagination">
+                                        <li>
+                                            <a href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="#" class="current bg-color">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li>
+                                            <a href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+
+                        </div>
+                        <!-- End Profile Block -->
+                    </div>
+                    <!-- End Search Section -->
+
+
+                </div>
+                <!-- End Column 8 -->
+            </div>
+            <!-- End row -->
+        </div>
+        <!-- End Container -->
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="inline-block">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="terms.html">Terms</a></li>
+                      <li><a href="privacy.html">Privacy Policy</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+
+                    <p class="copyright-text">
+                        &copy; 2015 MatchBot .
+                    </p>
+                    <a href="#searc-form-section" class="scrollToTop bg-color"><i class="fa fa-heart"></i></a>
+                </div>  <!-- End -->
+
+            </div>
+        </div>
+    </footer>
+     <script src="assets/js/jquery-2.1.4.js"></script>
+      <!-- General Plugins  -->
+      <script src="assets/plugins/bootstrap/bootstrap.js"></script>
+      <script src="assets/plugins/wow/wow.min.js"></script>
+      <script src="assets/js/jquery.touchSwipe.js"></script>
+      <!-- Scroll -->
+      <script src="assets/js/smoothscroll.js"></script>
+      <script src="assets/js/jquery.scrollTo.min.js"></script>
+      <script src="assets/js/jquery.localScroll.min.js"></script>
+      <!-- Page Plugins  -->
+       <script src="assets/plugins/icheck/icheck.js"></script>
+      <script src="assets/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+   
+
+
+    <script src="assets/js/scripts.js"></script>
+    <script>
+
+        $(function() {
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-grey',
+                radioClass: 'iradio_square-grey',
+                increaseArea: '20%' 
+            });
+        });
+    </script>
+</body>
+
+</html>
